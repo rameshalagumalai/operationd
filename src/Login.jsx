@@ -38,7 +38,7 @@ export default function Login() {
                 value={userID}
                 onChange={e => setUserID(e.target.value)}
                 />
-                <label for="floatingInput">User ID</label>
+                <label htmlFor="floatingInput">User ID</label>
             </div>
             <br />
             <div className="form-floating">
@@ -50,7 +50,7 @@ export default function Login() {
                 value={password}
                 onChange={e => setPassword(e.target.value)}
                 />
-                <label for="floatingPassword">Password</label>
+                <label htmlFor="floatingPassword">Password</label>
             </div>
             <br />
             <button className="w-100 btn btn-lg btn-primary" type="submit">
