@@ -6,7 +6,7 @@ import SubmitModal from "./SubmitModal";
 export default function Test(){
 
     const [questionNo, setQuestionNo] = useState(0);
-    const [testQuestions, setTestQuestions] = useState(questions);
+    const [testQuestions] = useState(questions);
 
     return (
         <div className="row p-5">
